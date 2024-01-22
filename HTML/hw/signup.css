@@ -1,0 +1,33 @@
+.F,
+.L,.E{
+    height: 30px;
+    border-radius: 6px;
+    border:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.40);
+    cursor: pointer;
+    transition: box-shadow 10s;
+    padding-left: 10px;
+}
+.F,.L,.E,.S:hover{
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.40);
+}
+
+.E{
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
+    width: 359px;
+}
+.S{
+    height: 50px;
+    width: 375px;
+    border-radius: 10px;
+    border:1px solid rgba(0, 81, 255, 0.795);
+    background-color: rgba(0, 81, 255, 0.795);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: box-shadow 0.18s;
+    
+}

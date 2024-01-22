@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Search Bar
+        </title>
+        </head>
+        <style>
+            .s{
+                padding-left: 20px;
+                width: 500px;
+                height: 30px;
+                border-radius: 20px;
+                backdrop-filter: blur(10px);
+                border:1px solid rgba(0,0,0,0.1);
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.40);
+                outline: none;
+            }
+            .s:focus {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        .s::placeholder{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        </style>
+        <body>
+            <input class="s" placeholder="Search Google or type a URL">
+        </body>
+</html>
